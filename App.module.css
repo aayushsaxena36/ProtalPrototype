@@ -1,0 +1,123 @@
+.App {
+  color: aliceblue;
+  right: 600px;
+  position: absolute;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: darkgray;
+}
+.Main_div{
+  font-size: xx-large;
+}
+a{
+  font-weight: bold;
+  color: aliceblue;
+}
+.container1{
+  font-size: small;
+}
+.App button{
+  position: absolute;
+  border-radius: 8px;
+  background-color: black;
+  color: aliceblue;
+  border: yellow solid;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  height: 25px;
+  width: 80px;
+}
+.App button:hover{
+  cursor: pointer;
+}
+.App button.Click{
+  position: absolute;
+  border-radius: 8px;
+  background-color: yellow;
+  color: black;
+  border: yellow solid;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  height: 25px;
+  width: 80px;
+} 
+.App input{
+  color: darkgray;
+  background-color: black;
+  border-radius: 10px;
+  border-color: azure;
+  border-width: 0.2px;
+  font-size: xx-small;
+  padding-left: 5px ;
+  padding-top: 3px;
+  height: 17px;
+  width: 150px;
+}
+
+.App button.Next{
+  position: absolute;
+  float: left;
+  right: 130px;
+  border-radius: 8px;
+  background-color: yellow;
+  color: black;
+  border: yellow solid;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 25px;
+  width: 80px;
+  font-weight:lighter;
+}
+
+.creds{
+  border-radius: 10px;
+  display: inline-block;
+  background-color: aliceblue;
+  color: black;
+  font-size: x-small;
+  padding-left: 5px ;
+  padding-top: 3px;
+  width: 50px;
+  height: 17px;
+}
+
+.home{
+  color: lightgray;
+  position: absolute;
+  left: 100px;
+}
+.Protal{
+  color: yellow;
+  position: relative;
+  right: 1px;
+
+}
+.search{
+  position: relative;
+  left: 100px;
+  width: 200px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: x-small;
+}
+.header{
+  text-align: center;
+  position: relative;
+  right: 200px;
+}
+.icon{
+  position: relative;
+  left: 250px;
+  top: 7px;
+  height: 20px;
+  width: auto;
+  cursor: pointer;
+}
+.image{
+  height: 100px;
+  width: auto;
+  margin: 5px;
+}
+
